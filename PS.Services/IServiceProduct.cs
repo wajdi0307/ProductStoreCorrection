@@ -8,6 +8,6 @@ namespace PS.Services
 {
     public interface IServiceProduct: IService<Product>
     {
-    
+        IEnumerable<Product> FindMostExpensiveFiveProds();
     }
 }
